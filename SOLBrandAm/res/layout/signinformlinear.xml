@@ -1,0 +1,86 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/screen_2_blank"
+    android:orientation="vertical"
+    tools:context=".SOLSignInMainActivity" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
+        android:layout_marginRight="70dp"
+        android:layout_marginTop="140dp"
+        android:layout_weight="0"
+        android:orientation="vertical" >
+
+        <EditText
+            android:id="@+id/editTextEmail1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:background="@drawable/textinput"
+            android:ems="10"
+            android:hint="Player Email Address"
+            android:paddingLeft="@dimen/d10dp"
+            android:textColorHint="@color/LightCyan"
+            android:textSize="@dimen/d28dp" />
+
+        <EditText
+            android:id="@+id/editTextGamertag1"
+            android:layout_width="fill_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="30dp"
+            android:layout_weight="0.5"
+            android:background="@drawable/textinput"
+            android:ems="10"
+            android:hint="Player Gamertag"
+            android:paddingLeft="@dimen/d10dp"
+            android:textColorHint="@color/LightCyan"
+            android:textSize="@dimen/d28dp" />
+
+    </LinearLayout>
+    
+ 
+		<LinearLayout
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:layout_marginLeft="70dp"
+		    android:layout_marginTop="80dp"
+		    android:layout_weight="0" >
+                        
+                   <EditText
+                       android:id="@+id/editTextCode"
+                       android:layout_width="300dp"
+                       android:layout_height="60dp"
+                       android:layout_weight="1"
+                       android:background="@drawable/textinput"
+                       android:ems="10"
+                       android:hint="Launch Code"
+                       android:paddingLeft="@dimen/d10dp"
+                       android:textColorHint="@color/LightCyan"
+                       android:textSize="@dimen/d28dp" >
+     
+    </EditText>
+    
+                    <Button
+                        android:id="@+id/buttonGo"
+                        android:layout_width="wrap_content"
+                        android:layout_height="78dp"
+                        android:layout_alignBaseline="@+id/editTextCode"
+                        android:layout_alignBottom="@+id/editTextCode"
+                        android:layout_alignRight="@+id/editTextGamertag2"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="70dp"
+                        android:background="@drawable/gobutton2" />
+		    
+                    </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.50"
+            android:orientation="vertical" >
+        </LinearLayout>
+
+</LinearLayout>

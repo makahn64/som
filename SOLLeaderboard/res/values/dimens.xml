@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="Score">130dp</dimen>
+    <dimen name="Clock">60dp</dimen>
+    <dimen name="d50dp">50dp</dimen>
+    <dimen name="d80dp">80dp</dimen>
+    <dimen name="d150dp">150dp</dimen>
+    <dimen name="d40dp">40dp</dimen>
+</resources>

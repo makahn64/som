@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+                        <Button
+        android:id="@+id/buttonCountdown"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Countdown" />
+        <Button
+        android:id="@+id/buttonStart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start" />
+            <Button
+        android:id="@+id/buttonIdle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Idle" />
+            <Button
+        android:id="@+id/buttonOn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Armed" />
+
+                <TextView
+                    android:id="@+id/textViewLog"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Large Text"
+                    android:textAppearance="?android:attr/textAppearanceLarge" />
+
+</LinearLayout>

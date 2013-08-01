@@ -1,0 +1,90 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/screen_2"
+    tools:context=".SOLSignInMainActivity" >
+
+    <EditText
+        android:id="@+id/editTextEmail1"
+        android:layout_width="600dp"
+        android:layout_height="60dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="94dp"
+        android:layout_marginTop="144dp"
+        android:background="@null"
+        android:ems="10"
+        android:hint="Player One Email Address"
+        android:textSize="@dimen/d40dp" >
+
+         <requestFocus />
+         </EditText>
+
+    <EditText
+        android:id="@+id/editTextGamertag1"
+        android:layout_width="600dp"
+        android:layout_height="60dp"
+        android:layout_alignLeft="@+id/editTextEmail1"
+        android:layout_below="@+id/editTextEmail1"
+        android:layout_marginTop="50dp"
+        android:background="@null"
+        android:ems="10"
+        android:hint="Player One Gamertag"
+        android:textSize="@dimen/d40dp" >
+     
+    </EditText>
+    
+        <EditText
+            android:id="@+id/editTextEmail2"
+            android:layout_width="600dp"
+            android:layout_height="60dp"
+            android:layout_alignLeft="@+id/editTextEmail1"
+            android:layout_below="@+id/editTextGamertag1"
+            android:layout_marginTop="145dp"
+            android:background="@null"
+            android:ems="10"
+            android:hint="Player Two Email Address"
+            android:textSize="@dimen/d40dp" >
+     
+    </EditText>
+    
+      <EditText
+          android:id="@+id/editTextGamertag2"
+          android:layout_width="600dp"
+          android:layout_height="60dp"
+          android:layout_alignLeft="@+id/editTextEmail1"
+          android:layout_below="@+id/editTextEmail2"
+          android:layout_marginTop="50dp"
+          android:background="@null"
+          android:ems="10"
+          android:hint="Player Two Gamertag"
+          android:textSize="@dimen/d40dp" >
+     
+    </EditText>
+    
+             <EditText
+                 android:id="@+id/editTextCode"
+                 android:layout_width="300dp"
+                 android:layout_height="60dp"
+                 android:layout_alignLeft="@+id/editTextEmail1"
+                 android:layout_below="@+id/editTextGamertag2"
+                 android:layout_marginTop="120dp"
+                 android:background="@null"
+                 android:ems="10"
+                 android:hint="Launch Code"
+                 android:textSize="@dimen/d40dp" >
+     
+    </EditText>
+
+             <Button
+                 android:id="@+id/button1"
+                 android:layout_width="100dp"
+                 android:layout_height="100dp"
+                 android:layout_alignBaseline="@+id/editTextCode"
+                 android:layout_alignBottom="@+id/editTextCode"
+                 android:layout_alignRight="@+id/editTextGamertag2"
+                 android:background="@null"
+                 android:text="" />
+ 
+</RelativeLayout>

@@ -1,0 +1,112 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/White"
+    tools:context=".SOLScoreMainActivity" >
+
+    <ImageView
+        android:id="@+id/imageViewDot"
+        android:layout_width="600dp"
+        android:layout_height="600dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/score_1" />
+
+    <TextView
+        android:id="@+id/textViewError"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/textViewScore"
+        android:gravity="center_horizontal"
+        android:text="Large Text"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/Red"
+        android:textColorHint="@color/Red" />
+
+    <Button
+        android:id="@+id/buttonStart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="36dp"
+        android:text="Start Game"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/textViewTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="30dp"
+        android:text="0"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/Gray"
+        android:textSize="@dimen/Clock" />
+
+    <TextView
+        android:id="@+id/textViewScore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewTime"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:text="999"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/White"
+        android:textSize="@dimen/d150dp" />
+
+    <TextView
+        android:id="@+id/textViewTimeHigh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textViewTime"
+        android:layout_alignBottom="@+id/textViewTime"
+        android:layout_toLeftOf="@+id/textViewTime"
+        android:text="0."
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/Orange"
+        android:textSize="@dimen/Clock" />
+
+    <TextView
+        android:id="@+id/textViewGamertag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textViewTimeHigh"
+        android:layout_alignBottom="@+id/textViewTimeHigh"
+        android:layout_alignLeft="@+id/buttonStart"
+        android:text="GamerTag99"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/Gray"
+        android:textSize="@dimen/Clock" />
+
+    <TextView
+        android:id="@+id/textViewUpNext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/buttonStart"
+        android:layout_alignBottom="@+id/buttonStart"
+        android:layout_alignRight="@+id/textViewTime"
+        android:text="GamerTag99"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/Silver"
+        android:textSize="@dimen/d50dp" />
+
+    <TextView
+        android:id="@+id/textViewMultL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewTime"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="260dp"
+        android:text="5XL"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/White"
+        android:textSize="@dimen/d50dp" />
+
+</RelativeLayout>
